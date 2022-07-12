@@ -5,10 +5,28 @@
 </head>
 <body>
 
-<input id="p1-color" placeholder="Player 1 color">
-<input id="p2-color" placeholder="Player 2 color">
-<button id="start-game">Start Game!</button>
+   <h1>
+    CONNECT FOUR 
+  </h1>
+  
+  <p id="message">
+    Get 4 similar peices in a row, colunm or diagonally to win!
+  </p>
+  <form>
+    <label for="player1"> Player 1 Color </label>
+    <input type="text" id="player1" value="white">
 
+  </form>
+  <br>
+
+  <form>
+    <label for="player2"> Player 2 Color </label>
+    <input type="text" id="player2" value="teal">
+  </form>
+  <br>
+<button id="start"> Start Game</button>
+
+<br>
 <div id="game">
   <table id="board"></table>
 </div>
